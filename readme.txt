@@ -51,4 +51,4 @@ This is the initial release.
 2. Shortcode example
 3. Viewer with Japanese pdf file
 4. Viewer menu
-
+5. click to prev/next area
