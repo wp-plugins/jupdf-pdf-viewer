@@ -2,7 +2,7 @@
 /*
 Plugin Name: jupdf pdf viewer
 Description: PDF viewer on your pages and posts with jupdf
-Version: 0.1.0
+Version: 0.1.1
 Author: Yukio HORI
 Author URI: http://whitebase.org/
 License: GPLv2
