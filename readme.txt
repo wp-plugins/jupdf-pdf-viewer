@@ -3,7 +3,7 @@ Contributors: horiyuki
 Tags: pdf, jupdf, viewer, reader, shortcode, pdf.js
 Requires at least: 3.0
 Tested up to: 4.2.2
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,12 +37,16 @@ A. check file parameter.
 
 == Changelog ==
 
+= 0.1.1 =
+
+Add css for mobile device.
+
 = 0.1.0 =
 This is the initial release.
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 0.1.0 =
 This is the initial release.
 
 == Screenshots ==

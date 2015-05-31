@@ -32,10 +32,22 @@ function jupdf_function($param) {
 
   $buf = <<< EOS
 <!-- start jupdf viewer -->
+<div class="jupdf-wrap">
 <iframe src="$viewer?file=$file" width="$width" height="$height" scrolling="no"  allowfullscreen webkitallowfullscreen></iframe>
+</div>
 <!-- end jupdf viewer -->
 EOS;
 
   return $buf;
 }
+
+function addcss() {
+  $css = plugins_url("css/jupdf.css", __FILE__);
+  wp_register_style('jupdf', $css, array(), NULL);
+  wp_enqueue_style('jupdf');
+  //	wp_enqueue_style( 'jupdf-pdf-viewer', $css, false, '1' );
+}
+
+add_action('wp_print_styles', 'addcss');
+
 ?>
